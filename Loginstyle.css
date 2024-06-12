@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #7AB2B2;
+    background-size:cover;
+    background-image: url('register_background.jpg');
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.form{
+    height: 63vh;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+}
+.input-form{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.input{
+    width: 75%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+.user-pass{
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 60px;
+    margin-left: 81px;
+    width: 50%;
+    background-color:  #4D869C;
+    transition: background-color 0.5s;
+    color: white;
+    font-weight: 700;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #4D869C;
+}
+style2.css
+Displaying style2.css.
